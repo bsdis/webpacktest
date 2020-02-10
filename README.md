@@ -25,7 +25,7 @@ NOTE: from now on make sure to be always in the django-react folder and to have 
 Now let's pull in the dependencies:
 
 ```
-django-admin startproject django_react .
+pip install django djangorestframework
 ```
 
 Now everything is installed, you can now run the server using
