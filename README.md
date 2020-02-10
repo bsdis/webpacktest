@@ -34,4 +34,4 @@ Now everything is installed, you can now run the server using
 python manage.py runserver
 ```
 
-
+When the server is running you can browse to http://127.0.0.1:8000 to load the site
