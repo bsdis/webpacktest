@@ -28,7 +28,22 @@ Now let's pull in the dependencies:
 pip install django djangorestframework
 ```
 
-Now everything is installed, you can now run the server using
+Now backend has been setup. Frontend should be compiled now
+
+```
+cd frontend
+```
+
+```
+npm install
+```
+
+```
+npm run build
+```
+
+Now open new terminal and browse to the `webpacktest` directory again.
+You can now run the server using
 
 ```
 python manage.py runserver
